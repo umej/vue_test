@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <textarea></textarea>
+    <textarea>{{data}}</textarea>
+    {{data}}
   </div>
 </template>
 
@@ -11,6 +12,9 @@ export default {
   name: "App",
   components: {
     HelloWorld
+  },
+  data: {
+    data
   }
 };
 </script>
